@@ -68,7 +68,7 @@ const Home = () => {
     <div>
       <div style={{ height: "14vh" }}>
         <div style={{ textAlign: "center" }}>
-          <h1 style={{ fontFamily: 'Mojangles' }}>Workers AI</h1>
+          <h1 style={{ fontFamily: 'Mojangles' }}>Mio Bot</h1>
         </div>
         <div>
           <CapsuleTabs activeKey={activeKey} onChange={handleTabClick}>
