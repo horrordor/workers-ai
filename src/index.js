@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './components/Home'; // 导入Home组件
 import TextGeneration from './components/Models/TextGeneration'; // 导入TextGeneration组件
-import AutomaticSpeechRecognition from './components/Models/AutomaticSpeechRecognition'; // 导入SpeechRecognition组件
+// import AutomaticSpeechRecognition from './components/Models/AutomaticSpeechRecognition'; // 导入SpeechRecognition组件
 import Translation from './components/Models/Translation'; // 导入TextTranslation组件
-import ImageClassification from './components/Models/ImageClassification'; // 导入ImageClassification组件
-import TextToImage from './components/Models/Text2Image'; // 导入TextToImage组件
-import About from './components/Models/About'; // 导入About组件
+// import ImageClassification from './components/Models/ImageClassification'; // 导入ImageClassification组件
+// import TextToImage from './components/Models/Text2Image'; // 导入TextToImage组件
+// import About from './components/Models/About'; // 导入About组件
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
