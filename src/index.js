@@ -20,9 +20,9 @@ root.render(
           <Route path="text-generation" element={<TextGeneration />} />
           <Route path="speech-recognition" element={<AutomaticSpeechRecognition />} />
           <Route path="text-translation" element={<Translation />} />
-          <Route path="image-classification" element={<ImageClassification />} />
-          <Route path="text-to-image" element={<TextToImage />} />
-          <Route path="about" element={<About />} />
+          // <Route path="image-classification" element={<ImageClassification />} />
+          // <Route path="text-to-image" element={<TextToImage />} />
+          // <Route path="about" element={<About />} />
         </Route>
       </Routes>
     </Router>
