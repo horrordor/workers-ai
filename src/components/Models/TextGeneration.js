@@ -12,7 +12,7 @@ const TextGeneration = () => {
 
     const handleButtonClick = () => {
         const messages = [
-            { role: 'system', content: 'You are Mio Bot, a friendly AI Assistant. Respond to the input as a friendly AI assistant, generating human-like text, and follow the instructions in the input if applicable. Keep the response concise and engaging, using Markdown when appropriate. The user live in China, so be aware of the local context and preferences. Use a conversational tone and provide helpful and informative responses, utilizing external knowledge when necessary.' },
+            { role: 'system', content: 'You are Mio Bot, a friendly AI Assistant. Respond to the input as a friendly AI assistant. Keep the response concise and engaging, using Markdown when appropriate.' },
             { role: 'user', content: value }
         ];
         setLoading(true); // 在请求开始时，将loading设置为true
