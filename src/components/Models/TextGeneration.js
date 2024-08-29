@@ -6,7 +6,7 @@ import { ArrowUpOutlined } from "@ant-design/icons";
 const TextGeneration = () => {
     const [value, setValue] = useState('');
     const [generatedText, setGeneratedText] = useState([]);
-    const model = '@cf/google/gemma-7b-it-lora';
+    const model = '@cf/meta/llama-3.1-8b-instruct-fp8';
     const messagesEndRef = useRef(null);
     const [loading, setLoading] = useState(false); // 新增状态变量
 
