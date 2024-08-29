@@ -18,7 +18,7 @@ root.render(
         <Route path="/" element={<Home />}>
           <Route index element={<Navigate to="text-generation" />} /> // 默认跳转到文本生成
           <Route path="text-generation" element={<TextGeneration />} />
-          <Route path="speech-recognition" element={<AutomaticSpeechRecognition />} />
+          // <Route path="speech-recognition" element={<AutomaticSpeechRecognition />} />
           <Route path="text-translation" element={<Translation />} />
           // <Route path="image-classification" element={<ImageClassification />} />
           // <Route path="text-to-image" element={<TextToImage />} />
