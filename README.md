@@ -3,8 +3,8 @@
 # 功能
 - 文本生成（@cf/meta/llama-2-7b-chat-int8）
 - 文本翻译（@cf/meta/m2m100-1.2b）
-- 图像分类（@cf/microsoft/resnet-50）
-- 文本生图（@cf/stabilityai/stable-diffusion-xl-base-1.0）
+- ---图像分类（@cf/microsoft/resnet-50）---
+- ---文本生图（@cf/stabilityai/stable-diffusion-xl-base-1.0）---
 # 部署方法
 ## 准备工作
 1. 登陆Cloudflare后访问 [https://dash.cloudflare.com](https://dash.cloudflare.com/)，地址栏会出现`https://dash.cloudflare.com/xxxxxxxxx`，`xxxxxxxxx`即是你的`{ACCOUNT_ID}`，复制保存
