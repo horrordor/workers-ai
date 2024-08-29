@@ -73,11 +73,7 @@ const Home = () => {
         <div>
           <CapsuleTabs activeKey={activeKey} onChange={handleTabClick}>
             <CapsuleTabs.Tab title='文本生成' key='1' />
-            {/* <CapsuleTabs.Tab title='语音识别' key='2' /> */}
             <CapsuleTabs.Tab title='文本翻译' key='3' />
-            <CapsuleTabs.Tab title='图像分类' key='4' />
-            <CapsuleTabs.Tab title='文本生图' key='5' />
-            <CapsuleTabs.Tab title='关于' key='6' />
           </CapsuleTabs>
         </div>
       </div>
