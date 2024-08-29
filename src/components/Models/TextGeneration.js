@@ -6,7 +6,7 @@ import { ArrowUpOutlined } from "@ant-design/icons";
 const TextGeneration = () => {
     const [value, setValue] = useState('');
     const [generatedText, setGeneratedText] = useState([]);
-    const model = '@cf/meta/llama-3.1-8b-instruct-fp8';
+    const model = '@hf/thebloke/llama-2-13b-chat-awq';
     const messagesEndRef = useRef(null);
     const [loading, setLoading] = useState(false); // 新增状态变量
 
