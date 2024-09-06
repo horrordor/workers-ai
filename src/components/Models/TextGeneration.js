@@ -6,13 +6,13 @@ import { ArrowUpOutlined } from "@ant-design/icons";
 const TextGeneration = () => {
     const [value, setValue] = useState('');
     const [generatedText, setGeneratedText] = useState([]);
-    const model = '@cf/tinyllama/tinyllama-1.1b-chat-v1.0';
+    const model = '@hf/nexusflow/starling-lm-7b-beta';
     const messagesEndRef = useRef(null);
     const [loading, setLoading] = useState(false); // 新增状态变量
 
     const handleButtonClick = () => {
         const messages = [
-            { role: 'system', content: 'You are Mio Bot, a friendly AI Assistant. Respond to the input as a friendly AI assistant. Keep the response concise and engaging, using Markdown when appropriate.' },
+            { role: 'system', content: 'You are a friendly assistant.' },
             { role: 'user', content: value }
         ];
         setLoading(true); // 在请求开始时，将loading设置为true
