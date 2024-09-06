@@ -7,7 +7,7 @@ const { Content } = Layout;
 message.info("未做PC端适配，建议用手机访问");
 const Home = () => {
   useEffect(() => {
-    document.title = "Workers AI";
+    document.title = "Mio娘";
   }, []);
 
   const location = useLocation();
