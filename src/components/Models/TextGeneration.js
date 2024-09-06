@@ -49,7 +49,7 @@ const TextGeneration = () => {
                 <div ref={messagesEndRef} />
             </div>
             <div style={{ display: "flex", alignItems: "center", position: 'fixed', bottom: 0, width: '100%', backgroundColor: "#fff", zIndex: 1000 }}>
-                <Input style={{ marginLeft: "20px" }} size="large" placeholder="发起对话...（对中文支持不好）" value={value} onChange={e => setValue(e.target.value)} onPressEnter={handleButtonClick} />
+                <Input style={{ marginLeft: "20px" }} size="large" placeholder="和mio娘发起对话..." value={value} onChange={e => setValue(e.target.value)} onPressEnter={handleButtonClick} />
                 <Button
                     style={{ margin: "20px" }}
                     type="primary"
