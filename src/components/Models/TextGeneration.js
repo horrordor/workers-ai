@@ -6,7 +6,7 @@ import { ArrowUpOutlined } from "@ant-design/icons";
 const TextGeneration = () => {
     const [value, setValue] = useState('');
     const [generatedText, setGeneratedText] = useState([]);
-    const model = '@hf/nexusflow/starling-lm-7b-beta';
+    const model = '@cf/qwen/qwen1.5-7b-chat-awq';
     const messagesEndRef = useRef(null);
     const [loading, setLoading] = useState(false); // 新增状态变量
 
