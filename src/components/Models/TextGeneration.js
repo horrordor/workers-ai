@@ -39,7 +39,7 @@ const TextGeneration = () => {
                 {generatedText.map((text, index) => (
                     <div key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', margin: '10px 0' }}>
                         <div style={{ display: 'flex', alignItems: 'center' }}>
-                            <Avatar style={{ flexShrink: 0, width: '40px', height: '40px' }} src={text.role === 'You' ? 'static/You.jpg' : 'static/AI.jpg'} />
+                            <Avatar style={{ flexShrink: 0, width: '40px', height: '40px' }} src={text.role === 'Master' ? 'static/You.jpg' : 'static/AI.jpg'} />
                             <b style={{ marginLeft: '10px' }}>{text.role}</b>
                         </div>
                         <p style={{ marginLeft: '50px' }}>{text.content}</p>
