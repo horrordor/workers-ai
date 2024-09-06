@@ -19,7 +19,7 @@ const TextGeneration = () => {
         setValue(''); // 清空输入框
         AxiosInstance.post(`/${model}`, { messages })
             .then((res) => {
-                setGeneratedText(prevTexts => [...prevTexts, { role: 'You', content: value }, { role: 'AI', content: res.data.result.response }]);
+                setGeneratedText(prevTexts => [...prevTexts, { role: 'Master', content: value }, { role: 'Mio', content: res.data.result.response }]);
             })
             .catch((err) => {
                 console.log(err);
